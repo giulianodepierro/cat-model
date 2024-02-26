@@ -61,7 +61,7 @@
     line-height: 1.5;
     color: #555555;
     text-align: left;
-    background-color: #FFFBF2;
+    background-color: #fff;
   }
   
   [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2365,15 +2365,15 @@
   }
   
   .btn-primary {
-    color: --;
-    background-color: #DA9F5B;
-    border-color: #DA9F5B;
+    color: var(--light);
+    background-color: var(--primary);
+    border-color:#fff;
   }
   
   .btn-primary:hover {
-    color: #212529;
-    background-color: #d38d3c;
-    border-color: #d18731;
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
   }
   
   .btn-primary:focus, .btn-primary.focus {
@@ -9260,10 +9260,14 @@
     font-style: italic !important;
   }
   
-  .text-white {
+  .text-yellow {
     color: var(--primary) !important;
      }
   
+     .text-white {
+      color: var(--light) !important;
+       }
+    
   h2 .bordered-text{ 
     border: 1px solid #000;
     text-shadow: #000 1dvw ;
@@ -9654,7 +9658,7 @@
   .page-header,
   .offer,
   .footer {
-    background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(../img/bg.jpg);
+    background: linear-gradient(rgba(51, 33, 29, 0.7), rgba(51, 33, 29, 0.7)), url(../img/huellas\ background.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
